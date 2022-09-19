@@ -1,0 +1,89 @@
+.page-header{
+    background-color: var(--header-bcg-color);
+    }
+    
+    .page-header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    }
+    .header-nav{
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        gap: 50px;
+    }
+    .site-nav{
+    display: flex;
+    }
+    .site-nav .item{
+        padding-top: 34px;
+        padding-bottom: 34px;
+    } 
+    
+    .site-nav .item + .item{
+        margin-left: 50px;
+    }
+    .navig{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo-site{
+        margin-right: 94px;
+    }
+    .link.logo-site{
+        font-family: 'Raleway'; 
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        color: #000000;}
+    
+    .link{
+        transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func);
+    }
+    .logo-first-color{
+    color:var(--logo-button-color);
+    }
+    .border-header {
+        border-bottom-width: 1px;
+        border-bottom-color: rgba(236, 236, 236, 1);
+        border-bottom-style: solid;
+    }
+    .header-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-icon{
+        text-decoration: none;
+        fill: var(--icons-color);
+        margin-right: 10px;
+        transition: var(--transition-dur-and-func);
+    }
+    .link:hover .nav-icon,
+    .link:focus .nav-icon{
+        fill: var(--logo-button-color);
+        /* cursor: pointer; */
+    }
+    .link.menu-link {
+        color: var(--logo-button-color);
+    }
+    .item{
+        position: relative;
+    }
+    .menu-link::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        display: block;
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+        background-color: var(--logo-button-color);
+    }

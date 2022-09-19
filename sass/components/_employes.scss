@@ -23,7 +23,7 @@
     
     &:last-child{
     margin-right: 0;
-}
+}}
 
 .member-card{
     border-radius: 4px;
@@ -33,13 +33,14 @@
     display: flex;
     flex-direction: row;
 }
-.engaged-element:last-child{
-    margin-right: 0;
-}
-.engaged-element{
+.engaged-element {
     width: calc( (100% - 60px ) / 3);
     margin-right: 30px;
-}
+
+    &:last-child {
+    margin-right: 0;
+}}
+
 .name-members-list{
     font-family: 'Roboto';
         font-weight: 500;
@@ -47,14 +48,14 @@
         line-height: 1.18;
         text-align: center;
         letter-spacing: 0.03em;
-        color:var(--titles-colour);
-        margin-bottom: 10px;
+    color:var(--titles-colour);
+    margin-bottom: 10px;
 }
-.professions-list{
-        font-size: 16px;
-        line-height: 1.18;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: var(--text-colour);
-        margin-bottom: 16px;
-}
+
+.professions-list {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-colour);
+    margin-bottom: 16px;}

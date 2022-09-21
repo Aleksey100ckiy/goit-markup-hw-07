@@ -188,12 +188,12 @@ ul, li {
   display: flex;
 }
 
-.site-nav .item {
+.site-nav .site-nav__item {
   padding-top: 34px;
   padding-bottom: 34px;
 }
 
-.site-nav .item + .item {
+.site-nav .site-nav__item + .site-nav__item {
   margin-left: 50px;
 }
 
@@ -246,15 +246,15 @@ ul, li {
   /* cursor: pointer; */
 }
 
-.link.menu-link {
+.link.site-nav__link--current {
   color: var(--logo-button-color);
 }
 
-.item {
+.site-nav__item {
   position: relative;
 }
 
-.menu-link::after {
+.site-nav__link--current::after {
   content: "";
   position: absolute;
   left: 0;

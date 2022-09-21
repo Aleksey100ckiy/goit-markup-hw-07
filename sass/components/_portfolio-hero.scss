@@ -2,7 +2,7 @@
     background-color: var(--header-bcg-color);
 }
 .portfolio-titles-list{
-    font-family: 'Roboto';
+    font-family: $font_primary;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -17,8 +17,7 @@
     color: var(--text-colour);
 }
 .portfolio-button-list{
-    display: flex;
-    flex-direction: row;
+    @extend %display_flex_row;
     justify-content: center;
     gap: 8px;
     align-items: baseline;

@@ -10,8 +10,7 @@
 }
 .social-list-link {
     display: flex;
-    align-items: center;
-    justify-content: center ;
+    @include flex_settings_main_cross_axis ();
     width: 44px;
     height: 44px;
     border-radius: 50%;

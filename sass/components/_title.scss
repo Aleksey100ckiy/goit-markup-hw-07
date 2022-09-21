@@ -1,5 +1,5 @@
 .first-title {
-    font-family: 'Roboto';
+    font-family: $font_primary;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.5;
@@ -9,7 +9,7 @@
 }
 
 .title-second-row {
-    font-family: 'Roboto';
+    font-family: $font_primary;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.66;
@@ -20,7 +20,7 @@
 }
 
 .title-third-row {
-    font-family: 'Roboto';
+    font-family: $font_primary;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;

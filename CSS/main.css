@@ -27,7 +27,6 @@ body {
   color: var(--text-colour);
 }
 
-/* ---------------------------site config------------- */
 img {
   display: block;
   max-width: 100%;
@@ -66,8 +65,13 @@ ul, li {
   margin: -1px;
 }
 
+.portfolio-button-list, .portfolio-icons, .footer-subscribe, .page-footer-main, .engaged, .members, .benefits, .client-list, .benefit-box, .navig, .header-nav, .page-header-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .button {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -89,7 +93,7 @@ ul, li {
 }
 
 .portfolio-button {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -118,8 +122,8 @@ ul, li {
 
 .social-list-link {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -134,7 +138,7 @@ ul, li {
 }
 
 .first-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.5;
@@ -144,7 +148,7 @@ ul, li {
 }
 
 .title-second-row {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.66;
@@ -155,7 +159,7 @@ ul, li {
 }
 
 .title-third-row {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -171,15 +175,11 @@ ul, li {
 }
 
 .page-header-container {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
 .header-nav {
-  display: flex;
-  flex-direction: row;
   margin-left: auto;
   gap: 50px;
 }
@@ -198,10 +198,8 @@ ul, li {
 }
 
 .navig {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .logo-site {
@@ -209,7 +207,7 @@ ul, li {
 }
 
 .link.logo-site {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -231,8 +229,6 @@ ul, li {
 }
 
 .header-nav {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -287,7 +283,7 @@ ul, li {
 }
 
 .link {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -305,7 +301,7 @@ ul, li {
 }
 
 .header-links ~ .link {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -314,7 +310,7 @@ ul, li {
 }
 
 .navigation {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -341,9 +337,7 @@ ul, li {
 }
 
 .benefit-box {
-  display: flex;
   height: 120px;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   background-color: var(--portfolio-bottom-color);
@@ -364,10 +358,8 @@ ul, li {
 }
 
 .client-list {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   column-gap: 30px;
 }
 
@@ -394,19 +386,12 @@ ul, li {
 }
 
 .benefits {
-  display: flex;
-  flex-direction: row;
   align-items: flex-start;
   gap: 30px;
 }
 
 .benefits__card {
   width: calc((100% - 90px) / 4);
-}
-
-.members {
-  display: flex;
-  flex-direction: row;
 }
 
 .description-member {
@@ -429,11 +414,6 @@ ul, li {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.engaged {
-  display: flex;
-  flex-direction: row;
-}
-
 .engaged-element {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
@@ -443,7 +423,7 @@ ul, li {
 }
 
 .name-members-list {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -468,8 +448,6 @@ ul, li {
 }
 
 .page-footer-main {
-  display: flex;
-  flex-direction: row;
   justify-content: flex-start;
   align-items: baseline;
   padding-top: 60px;
@@ -479,7 +457,7 @@ ul, li {
 
 .footer-header {
   text-transform: uppercase;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -487,7 +465,7 @@ ul, li {
 }
 
 .footer-logo-link {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -551,8 +529,6 @@ ul, li {
 }
 
 .footer-subscribe {
-  display: flex;
-  flex-direction: row;
   column-gap: 12px;
   height: 50px;
 }
@@ -643,7 +619,7 @@ ul, li {
 }
 
 .modal-form-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -659,7 +635,7 @@ ul, li {
 }
 
 .modal-form-field-desc {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -782,7 +758,7 @@ ul, li {
 .modal-button-submit {
   display: flex;
   align-self: center;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -807,8 +783,6 @@ ul, li {
 }
 
 .portfolio-icons {
-  display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   gap: 30px;
 }
@@ -874,7 +848,7 @@ ul, li {
   display: flex;
   align-items: center;
   position: absolute;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -901,7 +875,7 @@ ul, li {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -915,7 +889,7 @@ ul, li {
 }
 
 .portfolio-titles-list {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -932,8 +906,6 @@ ul, li {
 }
 
 .portfolio-button-list {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   gap: 8px;
   align-items: baseline;

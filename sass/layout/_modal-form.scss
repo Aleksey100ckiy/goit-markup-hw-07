@@ -1,5 +1,5 @@
 .modal-form-title {
-    font-family: 'Roboto';
+    font-family: $font_primary;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
@@ -14,7 +14,7 @@
 }
 
 .modal-form-field-desc {
-    font-family: 'Roboto';
+    font-family: $font_primary;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -121,7 +121,7 @@ margin-right: 7px;
 .modal-button-submit {
     display: flex;
     align-self: center;
-    font-family: 'Roboto';
+    font-family: $font_primary;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;

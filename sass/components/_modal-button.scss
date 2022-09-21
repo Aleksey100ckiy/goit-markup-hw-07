@@ -1,5 +1,5 @@
 .button {
-    font-family: 'Roboto';
+    font-family: $font_primary;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -23,7 +23,7 @@
 }}
 
 .portfolio-button {
-    font-family: 'Roboto';
+    font-family: $font_primary;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;

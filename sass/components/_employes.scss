@@ -1,6 +1,5 @@
 .benefits{
-    display: flex;
-    flex-direction: row;
+    @extend %display_flex_row;
     align-items: flex-start;
     gap: 30px;
 }
@@ -8,8 +7,7 @@
     width: calc((100% - 90px) / 4);
 }
 .members{
-    display: flex;
-    flex-direction: row;
+    @extend %display_flex_row;
 }
 .description-member{
     padding-top: 30px;
@@ -30,8 +28,7 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .engaged {
-    display: flex;
-    flex-direction: row;
+    @extend %display_flex_row;
 }
 .engaged-element {
     width: calc( (100% - 60px ) / 3);
@@ -42,12 +39,12 @@
 }}
 
 .name-members-list{
-    font-family: 'Roboto';
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.18;
-        text-align: center;
-        letter-spacing: 0.03em;
+    font-family: $font_primary;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
     color:var(--titles-colour);
     margin-bottom: 10px;
 }
